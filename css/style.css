@@ -1,1 +1,147 @@
 
+:root {
+  --orange: #F98C53;
+  --green: #D2E0AA;
+  --blue: #ABD7FB;
+  --cream: #F9F2EF;
+  --peach: #FCCEB4;
+  --dark: #40512F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+}
+
+/* Navigation */
+.navbar {
+  background: var(--green);
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--dark);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.nav-links a {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #D96B37;
+  border-bottom: 2px solid var(--orange);
+}
+
+.menu-toggle {
+  display: none;
+  background: var(--orange);
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Page */
+.page-container {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.page-card {
+  background: white;
+  border-radius: 28px;
+  padding: 55px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.page-label {
+  display: inline-block;
+  background: var(--blue);
+  border-radius: 30px;
+  padding: 10px 18px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.page-card p {
+  color: #687063;
+}
+
+.placeholder {
+  background: var(--peach);
+  border-radius: 20px;
+  padding: 28px;
+  margin-top: 35px;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .page-card {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
