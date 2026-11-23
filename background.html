@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,77 +13,162 @@
 
   <main>
 
+    <!-- PAGE HEADER -->
     <section class="page-hero">
       <div class="container">
-        <span class="section-label">BACKGROUND</span>
-        <h1>Java & Spring Boot</h1>
-        <p>Background of Language and Framework</p>
+        <span class="section-label">
+          B.1 · BACKGROUND RESEARCH
+        </span>
+
+        <h1>Java Web &amp; Spring Boot</h1>
+
+        <p>
+          Background of Language / Framework / Library
+        </p>
       </div>
     </section>
 
-    <!-- RESEARCH TOPICS -->
+    <!-- SECTION NAVIGATION -->
     <section class="section">
       <div class="container">
 
         <div class="section-heading">
+          <span class="section-label">EXPLORE THE TOPICS</span>
           <h2>Background Research</h2>
-          <p>Key topics covered in our research.</p>
+          <p>Select a topic to explore.</p>
         </div>
 
         <div class="research-grid">
 
-          <div class="research-card">
-            <h3>01. History</h3>
-            <p>Content coming soon.</p>
-          </div>
+          <a href="#history" class="research-card topic-link">
+            <span class="topic-index">0.1</span>
+            <h3>History</h3>
+            <p>Java and Spring Boot</p>
+          </a>
 
-          <div class="research-card">
-            <h3>02. Language Category & Styles</h3>
-            <p>Content coming soon.</p>
-          </div>
+          <a href="#language-category" class="research-card topic-link">
+            <span class="topic-index">0.2</span>
+            <h3>Language Category &amp; Programming Styles</h3>
+            <p>Programming paradigms</p>
+          </a>
 
-          <div class="research-card">
-            <h3>03. Types of Applications</h3>
-            <p>Content coming soon.</p>
-          </div>
+          <a href="#applications" class="research-card topic-link">
+            <span class="topic-index">0.3</span>
+            <h3>Types of Applications</h3>
+            <p>Real-world applications</p>
+          </a>
 
-          <div class="research-card">
-            <h3>04. Current Popularity</h3>
-            <p>Research evidence available below.</p>
-            <a href="#popularity">View Evidence →</a>
-          </div>
+          <a href="#popularity" class="research-card topic-link">
+            <span class="topic-index">0.4</span>
+            <h3>Current Popularity</h3>
+            <p>TIOBE &amp; Stack Overflow</p>
+          </a>
 
-          <div class="research-card">
-            <h3>05. Implementation Method</h3>
-            <p>Content coming soon.</p>
-          </div>
+          <a href="#implementation" class="research-card topic-link">
+            <span class="topic-index">0.5</span>
+            <h3>Implementation Method</h3>
+            <p>Java compilation and JVM</p>
+          </a>
 
-          <div class="research-card">
-            <h3>06. Programming Environments</h3>
-            <p>Content coming soon.</p>
-          </div>
+          <a href="#environments" class="research-card topic-link">
+            <span class="topic-index">0.6</span>
+            <h3>Programming Environments</h3>
+            <p>IDEs and development tools</p>
+          </a>
 
         </div>
       </div>
     </section>
 
-    <!-- POPULARITY EVIDENCE -->
-    <section class="section popularity-section" id="popularity">
+    <!-- 0.1 HISTORY -->
+    <section class="background-section" id="history">
+      <div class="container">
+
+        <article class="background-content-card">
+
+          <span class="background-number">0.1 / HISTORY</span>
+
+          <h2>History of Java &amp; Spring Boot</h2>
+
+          <div class="background-text">
+
+            <p>Java was developed by James Gosling and his team at Sun Microsystems in 1995 to address the complexities of manual memory management and platform dependency found in C and C++. Its primary goal was to achieve "Write Once, Run Anywhere" (WORA) portability across different hardware architectures. Building upon Java, Spring Boot was introduced by the Pivotal team in 2014 to eliminate the heavy XML configuration overhead of traditional Java Enterprise Edition (Java EE) and earlier Spring frameworks. By adopting a "Convention over Configuration" approach with embedded servers like Tomcat, Spring Boot enables developers to rapidly build production-ready web applications and microservices.</p>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 0.2 LANGUAGE CATEGORY -->
+    <section class="background-section alternate-section" id="language-category">
+      <div class="container">
+
+        <article class="background-content-card">
+
+          <span class="background-number">
+            0.2 / LANGUAGE CATEGORY
+          </span>
+
+          <h2>Language Category &amp; Programming Styles</h2>
+
+          <div class="background-text">
+
+            <p>Java is primarily a statically typed, imperative, and object-oriented programming (OOP) language, though it has also incorporated functional programming features such as lambda expressions and the Stream API since Java 8. Within the Spring Boot framework, developers also utilize declarative programming through annotations and aspect-oriented programming (AOP) to separate cross-cutting concerns like security and logging.</p>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 0.3 TYPES OF APPLICATIONS -->
+    <section class="background-section" id="applications">
+      <div class="container">
+
+        <article class="background-content-card">
+
+          <span class="background-number">
+            0.3 / TYPES OF APPLICATIONS
+          </span>
+
+          <h2>Types of Applications</h2>
+
+          <div class="background-text">
+
+            <p>Due to its robustness, scalability, and strong ecosystem, Java with Spring Boot is predominantly used for enterprise-grade backend services, microservices architectures, financial and banking systems, and large-scale e-commerce platforms, such as those operated by Netflix, Uber, and major financial institutions.</p>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 0.4 POPULARITY -->
+    <section class="background-section alternate-section" id="popularity">
       <div class="container">
 
         <div class="section-heading">
-          <span class="section-label">B.1 · POPULARITY</span>
-          <h2>Popularity of Java & Spring Boot</h2>
+          <span class="background-number">
+            0.4 / CURRENT POPULARITY
+          </span>
+
+          <h2>Popularity of Java &amp; Spring Boot</h2>
+
           <p>
             Evidence from two independent sources:
             TIOBE Index and Stack Overflow Developer Survey.
           </p>
         </div>
 
-        <!-- SOURCE 1: TIOBE -->
+        <!-- SOURCE 1: TIOBE INDEX -->
         <article class="evidence-card">
 
-          <span class="evidence-tag">Source 01</span>
+          <span class="evidence-tag">SOURCE 01</span>
+
           <h3>TIOBE Index (November 2026)</h3>
 
           <figure>
@@ -99,34 +183,23 @@
             </figcaption>
           </figure>
 
-          <p>
-            According to the TIOBE Index (November 2026),
-            Java ranked <strong>3rd with a popularity
-            rating of 8.89%</strong>, improving from
-            4th place in November 2025.
-          </p>
+          <div class="background-text">
 
-          <h4>Data Collection</h4>
-          <p>
-            The TIOBE Index measures programming language
-            popularity using search results from
-            25 online search engines and websites.
-          </p>
+            <p>According to the TIOBE Index (November 2026), Java ranked 3rd with a popularity rating of 8.89%, improving from 4th place in November 2025.</p>
 
-          <h4>Potential Bias</h4>
-          <p>
-            Search popularity does not necessarily reflect
-            actual developer usage, as languages with more
-            online tutorials and documentation may receive
-            higher ratings.
-          </p>
+            <h4>Data Collection</h4>
 
-          <h4>Conclusion</h4>
-          <p>
-            Java's high ranking indicates that it remains
-            a well-established and relevant programming
-            language.
-          </p>
+            <p>The TIOBE Index measures programming language popularity using search results from 25 online search engines and websites.</p>
+
+            <h4>Potential Bias</h4>
+
+            <p>Search popularity does not reflect actual developer usage, as languages with more online tutorials and documentation may receive higher ratings.</p>
+
+            <h4>Conclusion</h4>
+
+            <p>Java's high ranking indicates that it remains a well-established and relevant programming language.</p>
+
+          </div>
 
           <a
             href="https://www.tiobe.com/tiobe-index/"
@@ -138,10 +211,11 @@
 
         </article>
 
-        <!-- SOURCE 2: STACK OVERFLOW JAVA -->
+        <!-- SOURCE 2: STACK OVERFLOW -->
         <article class="evidence-card">
 
-          <span class="evidence-tag">Source 02</span>
+          <span class="evidence-tag">SOURCE 02</span>
+
           <h3>Stack Overflow Developer Survey (2026)</h3>
 
           <h4>Java Programming Language</h4>
@@ -158,35 +232,23 @@
             </figcaption>
           </figure>
 
-          <p>
-            According to the 2026 Stack Overflow Developer
-            Survey, approximately <strong>28% of respondents
-            reported using Java</strong>, placing it among
-            the widely used programming languages.
-          </p>
+          <div class="background-text">
 
-          <h4>Data Collection</h4>
-          <p>
-            The survey collected responses from developers
-            worldwide through voluntary online participation,
-            asking which programming languages they had used
-            during the past year.
-          </p>
+            <p>According to the 2026 Stack Overflow Developer Survey, approximately 28% of respondents reported using Java, placing it among the widely used programming languages.</p>
 
-          <h4>Potential Bias</h4>
-          <p>
-            Since participation was voluntary, the results
-            may overrepresent developers who actively use
-            Stack Overflow and may not fully represent
-            the global developer community.
-          </p>
+            <h4>Data Collection</h4>
 
-          <h4>Conclusion</h4>
-          <p>
-            Java continues to be widely used by developers,
-            demonstrating its relevance in modern software
-            development.
-          </p>
+            <p>The survey collected responses from developers worldwide through voluntary online participation, asking which programming languages they had used during the past year.</p>
+
+            <h4>Potential Bias</h4>
+
+            <p>Since participation was voluntary, the results may overrepresent developers who actively use Stack Overflow and may not fully represent the global developer community.</p>
+
+            <h4>Conclusion</h4>
+
+            <p>Java continues to be widely used by developers, demonstrating its relevance in modern software development.</p>
+
+          </div>
 
           <a
             href="https://survey.stackoverflow.co/2026/technology/data/languages"
@@ -213,27 +275,11 @@
               </figcaption>
             </figure>
 
-            <p>
-              Spring Boot is also a widely used Java-based
-              framework for developing web applications.
-              According to the Stack Overflow Developer
-              Survey 2026, approximately
-              <strong>12.8% of respondents to the web
-              frameworks question</strong> reported using
-              Spring Boot.
-            </p>
+            <div class="background-text">
 
-            <p>
-              This indicates that Spring Boot remains
-              a relevant framework for backend and
-              enterprise web development.
-            </p>
+              <p>Spring Boot is also a widely used Java-based framework for developing web applications. According to the Stack Overflow Developer Survey 2026, approximately 12.8% of respondents to the web frameworks question reported using Spring Boot. This indicates that Spring Boot remains a relevant framework for backend and enterprise web development.</p>
 
-            <p>
-              However, the survey is based on voluntary
-              responses and may not fully represent
-              the global developer population.
-            </p>
+            </div>
 
             <a
               href="https://survey.stackoverflow.co/2026/technology/data/web-framework"
@@ -277,6 +323,152 @@
       </div>
     </section>
 
+    <!-- 0.5 IMPLEMENTATION METHOD -->
+    <section class="background-section" id="implementation">
+      <div class="container">
+
+        <article class="background-content-card">
+
+          <span class="background-number">
+            0.5 / IMPLEMENTATION METHOD
+          </span>
+
+          <h2>Implementation Method</h2>
+
+          <div class="implementation-block">
+
+            <h3>Java Implementation</h3>
+
+            <div class="background-text">
+
+              <p>Java primarily uses a hybrid implementation method, combining compilation with execution through a virtual machine. Unlike traditional fully native-compiled languages, standard Java programs are normally compiled into intermediate bytecode rather than directly into machine instructions for a particular processor. Source code (.java) is first compiled by the Java compiler (javac) into platform-independent intermediate bytecode (.class), which is then executed by the Java Virtual Machine (JVM) using an interpreter combined with a Just-In-Time (JIT) compiler that dynamically translates frequently executed bytecode into native machine code for optimal performance.</p>
+
+            </div>
+
+          </div>
+
+          <!-- IMPLEMENTATION FLOW -->
+          <div class="implementation-flow" aria-label="Java implementation flow">
+
+            <div class="flow-step">
+              <strong>Java Source Code</strong>
+              <span>.java</span>
+            </div>
+
+            <div class="flow-arrow">↓</div>
+
+            <div class="flow-step">
+              <strong>Java Compiler</strong>
+              <span>javac</span>
+            </div>
+
+            <div class="flow-arrow">↓</div>
+
+            <div class="flow-step">
+              <strong>Java Bytecode</strong>
+              <span>.class</span>
+            </div>
+
+            <div class="flow-arrow">↓</div>
+
+            <div class="flow-step">
+              <strong>Java Virtual Machine</strong>
+              <span>Interpreter + JIT Compiler</span>
+            </div>
+
+            <div class="flow-arrow">↓</div>
+
+            <div class="flow-step result-step">
+              <strong>Program Execution</strong>
+              <span>Native Machine Code</span>
+            </div>
+
+          </div>
+
+          <div class="implementation-block">
+
+            <h3>Spring Boot Implementation</h3>
+
+            <div class="background-text">
+
+              <p>Spring Boot uses the same Java compilation and JVM execution process because it is built using Java and the Spring ecosystem. However, Spring Boot adds its own application initialization and configuration mechanisms. Developers write Java classes for controllers, services, repositories, and other application components. Then, Maven or Gradle manages dependencies and compiles the source code. The application is packaged into an executable JAR file and the JVM launches the application. Spring Boot initializes the application context and performs auto-configuration. For a servlet-based web application, an embedded web server handles incoming HTTP requests. Controllers process requests and return the appropriate responses.</p>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 0.6 PROGRAMMING ENVIRONMENTS -->
+    <section class="background-section alternate-section" id="environments">
+      <div class="container">
+
+        <article class="background-content-card">
+
+          <span class="background-number">
+            0.6 / PROGRAMMING ENVIRONMENTS
+          </span>
+
+          <h2>Programming Environments</h2>
+
+          <div class="table-wrapper">
+
+            <table class="environment-table">
+
+              <thead>
+                <tr>
+                  <th>Environment</th>
+                  <th>Main Functions</th>
+                  <th>Suitability</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr>
+                  <td>Visual Studio Code</td>
+                  <td>Lightweight editor with Java and Spring extensions</td>
+                  <td>Small and medium projects</td>
+                </tr>
+
+                <tr>
+                  <td>Apache NetBeans</td>
+                  <td>Java editor, project management and debugging</td>
+                  <td>General Java development</td>
+                </tr>
+
+                <tr>
+                  <td>Spring Tools</td>
+                  <td>Spring-specific coding assistance and application support</td>
+                  <td>Spring-based application development</td>
+                </tr>
+
+                <tr>
+                  <td>Eclipse IDE</td>
+                  <td>Java development, debugging, plugin support</td>
+                  <td>Enterprise Java development</td>
+                </tr>
+
+                <tr>
+                  <td>IntelliJ IDEA</td>
+                  <td>Java coding, debugging, refactoring, Maven/Gradle integration</td>
+                  <td>Java and Spring Boot development</td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
   </main>
 
   <footer id="siteFooter"></footer>
@@ -284,4 +476,3 @@
 
 </body>
 </html>
-
