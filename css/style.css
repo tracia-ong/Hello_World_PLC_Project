@@ -913,3 +913,12 @@ figcaption {
     scroll-behavior: auto;
   }
 }
+
+.source-card {
+  min-width: 0;
+}
+
+.source-card a,
+.source-card p {
+  overflow-wrap: anywhere;
+}
