@@ -4,48 +4,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World! | Home</title>
-
+  <title>Home | Hello World!</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-page="home">
 
-  <!-- Navigation Bar -->
-  <header class="navbar">
-    <a href="index.html" class="logo">
-      ☕ Hello World!
-    </a>
+  <header id="siteHeader"></header>
 
-    <button class="menu-toggle" id="menuToggle"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-            aria-controls="navLinks">
-      ☰
-    </button>
+  <main>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="background.html">Background</a>
-      <a href="basic-elements.html">Basic Elements</a>
-      <a href="sample-application.html">Sample Application</a>
-      <a href="references.html">References</a>
-    </nav>
-  </header>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-content">
 
-  <!-- Page Content -->
-  <main class="page-container">
-    <div class="page-card">
-      <span class="page-label">TPL6213 GROUP PROJECT</span>
-      <h1>We Are Hello World! ☕</h1>
-      <p>Java Web & Spring Boot</p>
+        <span class="section-label">
+          TPL6213 · Programming Language Concept
+        </span>
 
-      <div class="placeholder">
-        Website content coming soon ✨
+        <h1>
+          Java Web <span>&</span><br>
+          Spring Boot
+        </h1>
+
+        <p class="hero-subtitle">
+          Hello World! Group Project
+        </p>
+
+        <div class="hero-divider"></div>
+
+        <p class="hero-description">
+          Exploring Java programming concepts and
+          modern web application development.
+        </p>
+
       </div>
-    </div>
+    </section>
+
+    <!-- GROUP MEMBERS -->
+    <section class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">OUR TEAM</span>
+          <h2>Group Members</h2>
+          <p>Meet the members of Hello World!</p>
+        </div>
+
+        <div class="members-grid">
+
+          <!-- MEMBER 1 -->
+          <div class="member-card">
+            <div class="member-photo">
+              <span>Photo to be added</span>
+            </div>
+
+            <h3>TEO RUI ZE</h3>
+            <p>263UT243VK</p>
+          </div>
+
+          <!-- MEMBER 2 -->
+          <div class="member-card">
+            <div class="member-photo">
+              <span>Photo to be added</span>
+            </div>
+
+            <h3>VANNESS CHAN CHENG YI</h3>
+            <p>252UT2543Q</p>
+          </div>
+
+          <!-- MEMBER 3 -->
+          <div class="member-card">
+            <div class="member-photo">
+              <span>Photo to be added</span>
+            </div>
+
+            <h3>TAN KAI XIAN</h3>
+            <p>252UT241HY</p>
+          </div>
+
+          <!-- MEMBER 4 -->
+          <div class="member-card">
+            <div class="member-photo">
+              <span>Photo to be added</span>
+            </div>
+
+            <h3>TRACIA ONG YEN WEN</h3>
+            <p>253UT255CV</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TASK ALLOCATION -->
+    <section class="section task-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">TEAM RESPONSIBILITIES</span>
+          <h2>Task Allocation</h2>
+          <p>Distribution of research and development tasks.</p>
+        </div>
+
+        <div class="task-grid">
+
+          <div class="task-card">
+            <span class="task-number">01</span>
+            <h3>TEO RUI ZE</h3>
+            <p class="student-id">263UT243VK</p>
+
+            <h4>Assigned Tasks</h4>
+            <ul>
+              <li>Sample Application</li>
+              <li>Subprograms</li>
+              <li>Application Source Code & Setup</li>
+            </ul>
+          </div>
+
+          <div class="task-card">
+            <span class="task-number">02</span>
+            <h3>VANNESS CHAN CHENG YI</h3>
+            <p class="student-id">252UT2543Q</p>
+
+            <h4>Assigned Tasks</h4>
+            <ul>
+              <li>Control Structures</li>
+              <li>System Flowchart</li>
+            </ul>
+          </div>
+
+          <div class="task-card">
+            <span class="task-number">03</span>
+            <h3>TAN KAI XIAN</h3>
+            <p class="student-id">252UT241HY</p>
+
+            <h4>Assigned Tasks</h4>
+            <ul>
+              <li>Names and Bindings</li>
+              <li>Expressions and Assignment</li>
+            </ul>
+          </div>
+
+          <div class="task-card">
+            <span class="task-number">04</span>
+            <h3>TRACIA ONG YEN WEN</h3>
+            <p class="student-id">253UT255CV</p>
+
+            <h4>Assigned Tasks</h4>
+            <ul>
+              <li>Background of Language & Framework</li>
+              <li>Website Design & Development</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT INFORMATION -->
+    <section class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">PROJECT OVERVIEW</span>
+          <h2>Our Selected Technology</h2>
+        </div>
+
+        <div class="technology-grid">
+
+          <div class="technology-card java-card">
+            <span class="technology-label">
+              Programming Language
+            </span>
+
+            <h3>Java Web</h3>
+            <p>
+              The selected programming language
+              for our group project.
+            </p>
+          </div>
+
+          <div class="technology-card spring-card">
+            <span class="technology-label">
+              Framework
+            </span>
+
+            <h3>Spring Boot</h3>
+            <p>
+              The selected Java framework
+              for our sample web application.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
+  <footer id="siteFooter"></footer>
   <script src="js/script.js"></script>
+
 </body>
 </html>
