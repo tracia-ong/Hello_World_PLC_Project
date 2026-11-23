@@ -918,6 +918,95 @@ figcaption {
   min-width: 0;
 }
 
+
+/* =====================================
+   APA 7TH EDITION REFERENCES
+===================================== */
+
+.reference-list {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.reference-card {
+  background: #FFFFFF;
+  padding: 28px 35px;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 5px 20px rgba(64, 81, 47, 0.04);
+}
+
+/* APA 7 Hanging Indent */
+.apa-reference {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+
+  /* First line left, following lines indented */
+  padding-left: 0.5in;
+  text-indent: -0.5in;
+
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Italicize source titles */
+.apa-reference em {
+  font-style: italic;
+}
+
+/* APA URLs */
+.apa-reference a {
+  color: #B85F32;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.apa-reference a:hover {
+  color: #F98C53;
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .reference-card {
+    padding: 22px 18px;
+  }
+
+  .apa-reference {
+    font-size: 14px;
+    padding-left: 0.4in;
+    text-indent: -0.4in;
+  }
+}
+
+/* Print / PDF formatting */
+@media print {
+
+  .reference-card {
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    break-inside: avoid;
+  }
+
+  .apa-reference {
+    font-size: 12pt;
+    line-height: 2;
+    padding-left: 0.5in;
+    text-indent: -0.5in;
+  }
+
+  .apa-reference a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
 .source-card a,
 .source-card p {
   overflow-wrap: anywhere;
